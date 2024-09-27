@@ -1,0 +1,52 @@
+body {
+  font-family: vazirmatn;
+}
+
+.pomodoro {
+  font-weight: 400;
+}
+
+td {
+  padding: 1rem 0.25rem;
+}
+
+.line {
+  color: #000000;
+}
+
+.font {
+  color: #de333f;
+}
+
+tr td {
+  border: 0.1px solid black;
+}
+
+.pompdoro {
+  color: #de333f;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.green {
+  color: white;
+  background-color: #008b8b;
+}
+
+.table_cell {
+  color: white;
+}
+
+.align {
+  text-align: center;
+}
+
+.link {
+  color: #006cbe;
+}
+
+.area {
+  margin: 0px 10px 15px 507px;
+}
