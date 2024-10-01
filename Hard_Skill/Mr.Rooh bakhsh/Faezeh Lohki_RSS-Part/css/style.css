@@ -1,0 +1,269 @@
+body {
+	font-family: Yekan Bakh FaNum;
+  display: flex;
+  justify-content: center;
+}
+
+.min_container {
+  display: flex;
+  height: 1080px;
+  gap: 35px;
+}
+
+.selected-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-content {display: flex;}
+
+.category-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-primary {
+	font-family: Yekan Bakh FaNum;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 8px;
+  width: 65px;
+  border: none;
+  border-radius: 17px;
+  color: #fff;
+  background-color: #17c4e2;
+}
+
+.button-secondary {
+	font-family: Yekan Bakh FaNum;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 8px;
+  width: 80px;
+  border: none;
+  border-radius: 18px;
+  background-color: #acdee7;
+}
+
+.image-selected {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  width: 521px;
+  height: 485px;
+  color: #fff;
+  background-image: url(../img/header/Union.png);
+}
+
+.lifestyle-label {
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0;
+  margin-right: 25px;
+  margin-left: 50px;
+}
+
+.article-title {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  margin-right: 25px;
+  margin-bottom: 8px;
+}
+
+.author-info {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 8px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+.selected-list { display: flex;}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 300px;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.category-label {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  color: #17c4e2;
+}
+
+.description-text {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+  width: 280px;
+}
+
+.category-header { margin-right: 10px;}
+
+.separator-line {
+  width: 98%;
+  height: 2px;
+  background-color: #e2e2e2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lifestyle-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.lifestyle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lifestyle-content {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-button {
+  font-weight: 400;
+  font-size: 22px;
+  padding: 3px;
+  width: 35px;
+  border-radius: 12px;
+}
+
+.card-item {
+  font-weight: 400;
+  font-size: 14px;
+  color: #bababa;
+}
+
+.card-write {
+  display: flex;
+  margin: 8px;
+  gap: 15px;
+}
+
+.new-article {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.contact-section { margin-top: 55px;}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-card {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  margin: 5px;
+  width: 355px;
+  height: 65px;
+  background-color: #FF854673;
+
+}
+
+.social-card span { font-weight: 600;}
+
+.media-divider {
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.info-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-group p {margin: 0;}
+
+.color-theme {background-color: #41464A73;}
+
+.color-theme2 { background-color: #039BE573;}
+
+.image-selected img {
+  width: 521px;
+  height: 485px;
+  top: 97px;
+  left: 1081px;
+}
+
+@media (max-width:1200px) {
+    .right-side {
+        display: none;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .image-selected {
+        margin-left: 0px;
+    }
+    .content-box {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width:970px) {
+    .right-side {
+        display: none;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .selected-header {
+        justify-content: flex-start;
+        justify-content: center;
+        gap: 250px;
+    }
+    .lifestyle-header {
+        justify-content: flex-start;
+        justify-content: center;
+        gap: 140px;
+    }
+    .selected-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .selected-list {
+        margin-top: 20px;
+    }
+    .lifestyle-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-selected {
+        margin-left: 0px;
+    }
+    .content-box {
+        width: 450px;
+        margin-right: 0;
+    }
+}
