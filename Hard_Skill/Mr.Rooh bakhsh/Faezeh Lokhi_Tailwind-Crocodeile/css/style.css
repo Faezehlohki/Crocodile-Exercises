@@ -15,7 +15,6 @@ header {
     flex-direction: column; 
     margin: 50px;
     padding: 30px;
-
 }
 
 .nav_bar ul {
@@ -34,13 +33,13 @@ header {
     color: #000; 
 }
 
-.nav_btn{
+.nav_btn {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.btn_morabi{
+.btn_morabi {
     font-family: Yekan Bakh FaNum;
     font-weight: 400;
     font-size: 15px;
@@ -55,7 +54,7 @@ header {
     margin-right: 15px;
 }
 
-.btn_doreh{
+.btn_doreh {
     font-family: Yekan Bakh FaNum;
     font-weight: 400;
     font-size: 15px;
@@ -68,7 +67,7 @@ header {
     text-decoration: none;
 }
 
-.body{
+.body {
     display: flex;
     font-family: Yekan Bakh FaNum;
     background: linear-gradient(0deg, rgba(102, 137, 112, 0.6) 80.49%, rgba(102, 137, 112, 0.35) 100%);
@@ -79,7 +78,7 @@ header {
     height: 1100px;
 }
 
-.pair{
+.pair {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +93,7 @@ header {
     padding: 0;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -102,12 +101,12 @@ header {
     margin-right: -1321px;
 }
 
-.b_pair, .cro_text{
+.b_pair, .cro_text {
     font-weight: 800;
     font-size: 128px;
 }
 
-.b_pair{
+.b_pair {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,18 +114,22 @@ header {
     white-space: nowrap;
 }
 
-.cro_text{margin-left: 20px;}
+.cro_text {
+    margin-left: 20px;
+}
 
-.lamp{ margin-left: 20px;}
+.lamp {
+    margin-left: 20px;
+}
 
-.align_caption{
+.align_caption {
     display: flex;
     flex-direction: column;
     margin-top: -450px;
     margin-right: 350px;
 }
 
-.caption{
+.caption {
     font-family: Yekan Bakh FaNum;
     font-weight: 400;
     font-size: 22px;
@@ -149,18 +152,52 @@ header {
     margin-right: 130px;
 }
 
-.nav-btn {
-    margin-top: 85px;    
-    margin-right: 170px;
-}
-
-.nav_icon{
+.nav_icon {
     width: 25px;
     height: 25px;
 }
 
-.Kite_cro{
+.Kite_cro {
     margin-top: -380px;
     margin-right: 1150px;
 }
 
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    header {
+        display: none; 
+    }
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .nav_bar ul {
+        flex-direction: column; 
+        margin-right: 0;
+    }
+    .nav_btn {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 970px) {
+    .body {
+        flex-direction: column; 
+        width: 100%; 
+        height: auto; 
+    }
+    .pair {
+        flex-direction: column;
+        padding-bottom: 20px; 
+    }
+    .align_caption {
+        margin-top: 20px; 
+        margin-right: 0; 
+    }
+    .nav-btn {
+        margin-top: 20px; 
+        margin-right: 0; 
+        width: 100%;
+    }
+}
